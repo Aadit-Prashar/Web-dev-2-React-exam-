@@ -13,7 +13,7 @@ const API = () => {
     <ul>
         {user.map(e=>(
         <li key={e.id}>
-            {e.username}
+            {e.username},
             {e.email}
         </li>
         ))}
